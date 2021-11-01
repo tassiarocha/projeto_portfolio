@@ -39,7 +39,7 @@ h1, h2{
 }
 
 p{
-    color: var(--pink);
+    color: var(--light-pink);
 }
 
 button{
@@ -51,6 +51,15 @@ button{
     font-weight: bold;
     font-size: 18px;
 }
+
+.title-pink{
+    color: var(--pink);
+}
+
+.title-light-pink{
+    color: var(--light-pink);
+}
+
 
 header{
     height: calc(100vh - 65px);
@@ -66,10 +75,6 @@ header .container{
 
 header .container img{
     display: none;
-}
-
-header .container h1{
-    color: var(--light-pink);
 }
 
 header .container button{
@@ -110,11 +115,23 @@ nav ul a svg{
     display: none;
 }
 
-section{
-    background:var(--light-pink);
-    height: 1500px;
+.about-me{
+   display: flex;
+   padding: 100px; 
 }
 
+.about-me .container{
+    width: 50%;
+    padding-right: 50px ;
+}
+.about-me .img-container{
+    width: 50%;
+    text-align: center;
+}
+
+.about-me .img-container img{
+    width: 70%;
+}
 /* RESPONSIVIDADE */
 /* small desktop */
 
