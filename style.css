@@ -91,6 +91,8 @@ nav{
     padding: 0 100px;
     position: sticky;
     top: 0;
+
+    z-index: 99;
 }
 
 nav img{
@@ -132,6 +134,7 @@ nav ul a svg{
 
 .about-me .img-container img{
     width: 70%;
+    object-fit: cover;
     height: 100%;
 }
 
@@ -150,8 +153,8 @@ nav ul a svg{
     color: var(--light-blue);
 }
 /* RESPONSIVIDADE */
-/* small desktop */
 
+/* small desktop */
 @media(max-width:1000px){
     header .container{ 
         width: 100%;
@@ -162,6 +165,22 @@ nav ul a svg{
     }
     nav{
         padding: 0 30px;
+    }
+
+    .about-me{
+        flex-direction: column;
+    }
+
+    .about-me .container, .about-me .img-container{
+        width: 100%;
+    }
+
+    .about-me .container{
+        padding-right: 0;
+    }
+
+    .about-me .img-container{
+        margin: 70px 0;
     }
 }
 
@@ -208,5 +227,9 @@ nav ul a svg{
     nav ul a svg{
         display: block;
         margin: 0 auto 10px;
+    }
+
+    .about-me{
+        padding:40px;
     }
 }
