@@ -54,11 +54,11 @@ button{
 }
 
 .secondary-button{
-    background: rgba(123, 139, 173, 0.5);
+    background:  rgba(123, 139, 173, 0.5);
     border: 1px solid var(--light-pink);
-    color: var(--pink);
+    color: var(--light-pink);
     font-weight: bold;
-    height: 60px;
+    height: 80px;
 
     display: flex;
     align-items: center;
@@ -304,7 +304,8 @@ p{
 
 .curriculum .container{
     display: flex;
-    margin:50px 0 ;
+    margin:50px auto ;
+    max-width: 1200px;
 }
 
 .curriculum .container .content{
@@ -379,6 +380,17 @@ p{
     }
 }
 
+    .curriculum .container{
+        flex-wrap: wrap;
+    }
+
+    .curriculum .container .curriculum-img{
+        display: block;
+        margin: 0 auto 50px;
+        width: 100%; /* A partir da tela 1000, a imagem vai ocupar o espaço que ela tem */
+        max-width: 520px;
+    }
+
 /* Tablet */
 @media(max-width:767px){
  
@@ -446,5 +458,15 @@ p{
     .portfolio{
         margin:100px 0 50px ;
     }
+
+    .curriculum{
+        padding: 0 20px;
+    }
+
+    .curriculum .container .content .curriculum-info{
+        padding: 0 15px;
+    }
+
+  
     
 }
