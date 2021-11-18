@@ -26,14 +26,14 @@
     <nav>
       <img src="assets/Union(1).png" alt="logo" />
       <ul>
-        <a href=""><i data-feather="user"></i>Sobre mim</a>
-        <a href=""><i data-feather="briefcase"></i>Serviços</a>
-        <a href=""><i data-feather="image"></i>Portfólio</a>
-        <a href=""><i data-feather="list"></i>Currículo</a>
-        <a href=""><i data-feather="send"></i>Contato</a>
+        <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+        <a href="#services"><i data-feather="briefcase"></i>Serviços</a>
+        <a href="#portfolio"><i data-feather="image"></i>Portfólio</a>
+        <a href="#curriculum"><i data-feather="list"></i>Currículo</a>
+        <a href="#contact"><i data-feather="send"></i>Contato</a>
       </ul>
     </nav>
-    <section class="about-me">
+    <section id="aboutme" class="about-me">
       <div class="container">
         <h1 class="title-pink">Sobre mim</h1>
         <p>
@@ -52,7 +52,7 @@
         <img src="assets/image26.png" alt="Tassia Rocha" />
       </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
       <h1 class="title-pink">Serviços</h1>
       <div class="services-container">
         <div class="service-card">
@@ -79,7 +79,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <h1 class="title-pink">Portfólio</h1>
       <div class="portfolio-container">
         <div class="portfolio-card">
@@ -96,7 +96,8 @@
           </div>
           <p>Linktree</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quibusdam provident eum error natus! Eveniet ab porro.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+            quibusdam provident eum error natus! Eveniet ab porro.
           </p>
         </div>
         <div class="portfolio-card">
@@ -113,7 +114,8 @@
           </div>
           <p>Linktree</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quibusdam provident eum error natus! Eveniet ab porro.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+            quibusdam provident eum error natus! Eveniet ab porro.
           </p>
         </div>
         <div class="portfolio-card">
@@ -130,32 +132,53 @@
           </div>
           <p>Linktree</p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quibusdam provident eum error natus! Eveniet ab porro.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+            quibusdam provident eum error natus! Eveniet ab porro.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="curriculum">
+    <section id="curriculum" class="curriculum">
       <h1 class="title-pink">Currículo</h1>
       <div class="container">
-        <img class="curriculum-img" src="assets/curriculo_img.png" alt="imagem de um currículo">
+        <img class="curriculum-img" src="assets/curriculo_img.png" />
         <div class="content">
           <div class="curriculum-info">
-              <span>Nome</span><b>Tássia Costa da Rocha</b>
-              <span>Idade</span><b>28 anos</b>
-              <span>Formação</span><b>Análise e Desenvolvimento de Sistemas - Cursando</b>
-              <span>Cidade</span><b>Manaus-Am</b>
-              <span>Telefone</span><b>(92) 98403-5960</b>
-              <span>Email</span><b>tassirocha25@gmail.com</b>
-              <span>Experiência</span><b>Html, Css, Js</b>
+            <span>Nome</span><b>Tássia Costa da Rocha</b> <span>Idade</span
+            ><b>28 anos</b> <span>Formação</span
+            ><b>Análise e Desenvolvimento de Sistemas - Cursando</b>
+            <span>Cidade</span><b>Manaus-Am</b> <span>Telefone</span
+            ><b>(92) 98403-5960</b> <span>Email</span
+            ><b>tassirocha25@gmail.com</b> <span>Experiência</span
+            ><b>Html, Css, Js</b>
           </div>
           <button class="secondary-button">
-              <img src="assets/icon-cv.svg" alt="icone de currículo">
-            Baixe meu currículo</button>
+            <img src="assets/icon-cv.svg" alt="icone de currículo" />
+            Baixe meu currículo
+          </button>
         </div>
       </div>
     </section>
+
+    <section id="contact" class="contact">
+      <h1>Vamos trabalhar juntos?</h1>
+      <p>
+        Se você ficou interessado e gostou do meu trabalho, entre em contato
+        Comigo. Faremos uma ótima equipe!
+      </p>
+      <button onclick="window.open('http://api.whatsapp.com/send?phone=5592984035960')">Entre em contato</button>
+
+      <div class="social-media">
+        <a href=""><img src="assets/Instagram.png" alt="logo instagram" /></a>
+        <a href="http://api.whatsapp.com/send?phone=5592984035960"><img src="assets/whatsapp.png" alt="logo whatsapp" /></a>
+        <a href=""><img src="assets/linkedin.png" alt="logo linkedIn" /></a>
+        <a href=""><img src="assets/git-hub.png" alt="logo github" /></a>
+      </div>
+    </section>
+    <footer>
+      <p>Made by Tássia Rocha - 2021</p>
+    </footer>
     <script>
       feather.replace();
     </script>
