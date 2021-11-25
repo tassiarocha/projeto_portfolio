@@ -325,7 +325,7 @@ p{
 
 .curriculum .container .content .curriculum-info{
     display: grid;
-    grid-template-columns:150px auto ;
+    grid-template-columns:100px auto ;
     grid-gap: 1rem;
     margin-bottom: 50px;
    /*  padding: 50px; */
@@ -501,6 +501,6 @@ footer{
         padding: 0 15px;
     }
 
-  
+    
     
 }
