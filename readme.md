@@ -8,7 +8,7 @@ Para ver o projeto ao vivo, [clique aqui](https://tassiarocha.github.io/projeto_
 
 Esse projeto foi realizado durante o curso Frontstart com o objetivo de aprender: HTML, CSS e Responsividade. 
 
-O projeto é um website de portfólio para apresentação de seus projetos pessoais, permitindo que seus clientes em potencial vejam quem está por trás do trabalho, conheçam um pouco sobre quem você é e se gostariam de trabalhar com você.
+O projeto é um modelo de website de portfólio para apresentação de projetos pessoais, permitindo que seus clientes em potencial vejam quem está por trás do trabalho, conheçam um pouco sobre quem você é e se gostariam de trabalhar com você.
 
 ### Aprendizados
 - HTML: Elemento section, tags para listas: ul e li
